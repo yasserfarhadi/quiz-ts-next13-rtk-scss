@@ -1,0 +1,32 @@
+.button {
+  background-color: transparent;
+  color: #ffffff;
+  border: 5px solid $border-color;
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: left;
+  &:hover {
+    background-color: $hover;
+  }
+  &:disabled {
+    cursor: default;
+  }
+}
+
+.correct {
+  background-color: $success;
+  &:hover {
+    background-color: $success;
+  }
+}
+
+.wrong {
+  background-color: $error;
+  &:hover {
+    background-color: $error;
+  }
+}

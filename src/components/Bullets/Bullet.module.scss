@@ -1,0 +1,19 @@
+.bullet {
+  width: 20px;
+  height: 20px;
+  border: 3px solid $border-color;
+  border-radius: 50px;
+}
+.idle {
+  background-color: transparent;
+}
+.false {
+  background-color: $error;
+}
+.correct {
+  background-color: $success;
+}
+
+.active {
+  background-color: $hover;
+}
